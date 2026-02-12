@@ -1,20 +1,11 @@
 """
-Título del Ejercicio: Edad el Próximo Año
+Título: Edad el próximo año
 
-Descripción del Problema:
-Pide la edad actual del usuario y muestra cuántos años tendrá el próximo año.
-
-Requisitos Específicos:
-1. Solicitar la edad como int.
-2. Sumar 1 a la edad.
-3. Mostrar el resultado.
-
-Ejemplo de Entrada:
-Edad: 20
-
-Ejemplo de Salida Esperada:
-El próximo año tendrás 21 años.
-
-Pista:
-Usa una variable nueva para la edad futura.
+Descripción:
+Muestra la edad que tendrá el usuario el próximo año.
 """
+
+edad_actual = int(input("Ingrese su edad actual: "))
+edad_futura = edad_actual + 1
+
+print(f"El próximo año tendrás {edad_futura} años.")

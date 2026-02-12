@@ -1,22 +1,14 @@
 """
-Título del Ejercicio: Promedio de Tres Notas
+Título: Promedio de tres notas
 
-Descripción del Problema:
-Solicita tres notas y calcula el promedio.
-
-Requisitos Específicos:
-1. Pedir tres valores numéricos.
-2. Calcular el promedio.
-3. Mostrar el resultado.
-
-Ejemplo de Entrada:
-Nota 1: 4.0
-Nota 2: 3.5
-Nota 3: 4.5
-
-Ejemplo de Salida Esperada:
-El promedio es: 4.0
-
-Pista:
-Suma las notas y divide entre 3.
+Descripción:
+Calcula el promedio de tres notas ingresadas por el usuario.
 """
+
+nota_1 = float(input("Ingrese la primera nota: "))
+nota_2 = float(input("Ingrese la segunda nota: "))
+nota_3 = float(input("Ingrese la tercera nota: "))
+
+promedio = (nota_1 + nota_2 + nota_3) / 3
+
+print(f"El promedio es: {promedio}")

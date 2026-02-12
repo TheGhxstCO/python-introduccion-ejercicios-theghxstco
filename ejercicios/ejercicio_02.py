@@ -1,22 +1,13 @@
 """
-Título del Ejercicio: Suma de Dos Números
+Título: Suma de dos números
 
-Descripción del Problema:
-Pide dos números enteros al usuario y muestra la suma de ambos.
-
-Requisitos Específicos:
-1. Solicitar dos números con input().
-2. Convertirlos a int.
-3. Calcular la suma.
-4. Mostrar el resultado con print().
-
-Ejemplo de Entrada:
-Número 1: 5
-Número 2: 7
-
-Ejemplo de Salida Esperada:
-La suma es: 12
-
-Pista:
-Usa el operador + para sumar.
+Descripción:
+Solicita dos números enteros y muestra su suma.
 """
+
+numero_1 = int(input("Ingrese el primer número: "))
+numero_2 = int(input("Ingrese el segundo número: "))
+
+suma = numero_1 + numero_2
+
+print(f"La suma es: {suma}")

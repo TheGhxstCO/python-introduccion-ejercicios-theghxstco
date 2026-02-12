@@ -1,22 +1,16 @@
 """
-Título del Ejercicio: Saludo Personalizado
+Título: Saludo Personalizado
 
-Descripción del Problema:
-Solicita al usuario su nombre y su edad, y muestra un saludo personalizado
-incluyendo ambos datos.
+Descripción:
+Solicita el nombre y la edad del usuario y muestra un saludo personalizado.
 
-Requisitos Específicos:
-1. Pedir el nombre usando input().
-2. Pedir la edad y convertirla a int.
-3. Mostrar el mensaje usando f-strings.
-
-Ejemplo de Entrada:
-Nombre: Carlos
-Edad: 18
-
-Ejemplo de Salida Esperada:
-Hola Carlos, tienes 18 años.
-
-Pista:
-Recuerda convertir la edad a número entero.
+Requisitos:
+1. Pedir el nombre.
+2. Pedir la edad.
+3. Mostrar un mensaje usando f-strings.
 """
+
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+
+print(f"Hola {nombre}, tienes {edad} años.")

@@ -1,20 +1,11 @@
 """
-Título del Ejercicio: Conversión de Temperatura
+Título: Conversión de temperatura
 
-Descripción del Problema:
-Convierte una temperatura de grados Celsius a Fahrenheit.
-
-Requisitos Específicos:
-1. Solicitar la temperatura en Celsius.
-2. Aplicar la fórmula de conversión.
-3. Mostrar el resultado.
-
-Ejemplo de Entrada:
-Celsius: 0
-
-Ejemplo de Salida Esperada:
-La temperatura en Fahrenheit es: 32.0
-
-Pista:
-Usa la fórmula (C * 9 / 5) + 32.
+Descripción:
+Convierte grados Celsius a Fahrenheit.
 """
+
+celsius = float(input("Ingrese la temperatura en grados Celsius: "))
+fahrenheit = (celsius * 9 / 5) + 32
+
+print(f"La temperatura en Fahrenheit es: {fahrenheit}")

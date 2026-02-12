@@ -1,20 +1,11 @@
 """
-Título del Ejercicio: Conversión de Minutos a Horas
+Título: Conversión de minutos a horas
 
-Descripción del Problema:
-Convierte una cantidad de minutos ingresados por el usuario a horas.
-
-Requisitos Específicos:
-1. Pedir los minutos como int.
-2. Convertirlos a horas.
-3. Mostrar el resultado.
-
-Ejemplo de Entrada:
-Minutos: 120
-
-Ejemplo de Salida Esperada:
-Equivale a 2.0 horas.
-
-Pista:
-Divide los minutos entre 60.
+Descripción:
+Convierte una cantidad de minutos a horas.
 """
+
+minutos = int(input("Ingrese la cantidad de minutos: "))
+horas = minutos / 60
+
+print(f"Equivale a {horas} horas.")
