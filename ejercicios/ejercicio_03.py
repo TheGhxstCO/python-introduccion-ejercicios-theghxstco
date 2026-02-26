@@ -1,12 +1,17 @@
 """
-Título: Precio con IVA
-
-Descripción:
-Calcula el precio final de un producto con IVA del 19%.
+Ejercicio 03 - Operaciones aritméticas
+Realizar operaciones básicas.
 """
 
-precio = float(input("Ingrese el precio del producto: "))
-iva = precio * 0.19
-total = precio + iva
+a = 10
+b = 5
 
-print(f"El precio final con IVA es: {total}")
+suma = a + b
+resta = a - b
+multiplicacion = a * b
+division = a / b
+
+print(f"Suma: {suma}")
+print(f"Resta: {resta}")
+print(f"Multiplicación: {multiplicacion}")
+print(f"División: {division}")

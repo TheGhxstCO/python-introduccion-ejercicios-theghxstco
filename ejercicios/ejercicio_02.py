@@ -1,13 +1,12 @@
 """
-Título: Suma de dos números
-
-Descripción:
-Solicita dos números enteros y muestra su suma.
+Ejercicio 02 - Declaración de variables
+Declarar nombres, precios y edades.
 """
 
-numero_1 = int(input("Ingrese el primer número: "))
-numero_2 = int(input("Ingrese el segundo número: "))
+nombres = ["Ana", "Luis", "Carlos"]
+precios = [10.5, 20.0, 30.75]
+edades = [18, 25, 30]
 
-suma = numero_1 + numero_2
-
-print(f"La suma es: {suma}")
+print("Nombres:", nombres)
+print("Precios:", precios)
+print("Edades:", edades)

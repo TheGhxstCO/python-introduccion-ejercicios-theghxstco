@@ -1,11 +1,14 @@
 """
-Título: Conversión de temperatura
-
-Descripción:
-Convierte grados Celsius a Fahrenheit.
+Ejercicio 06 - Estructuras de datos
+Crear y mostrar lista, tupla, conjunto y diccionario.
 """
 
-celsius = float(input("Ingrese la temperatura en grados Celsius: "))
-fahrenheit = (celsius * 9 / 5) + 32
+lista = [1, 2, 3]
+tupla = (4, 5, 6)
+conjunto = {7, 8, 9}
+diccionario = {"nombre": "Santiago", "edad": 20}
 
-print(f"La temperatura en Fahrenheit es: {fahrenheit}")
+print("Lista:", lista)
+print("Tupla:", tupla)
+print("Conjunto:", conjunto)
+print("Diccionario:", diccionario)

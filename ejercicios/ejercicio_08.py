@@ -1,11 +1,14 @@
 """
-Título: Conversión de minutos a horas
-
-Descripción:
-Convierte una cantidad de minutos a horas.
+Ejercicio 08 - Iteración de colecciones
+Recorrer una lista y un diccionario.
 """
 
-minutos = int(input("Ingrese la cantidad de minutos: "))
-horas = minutos / 60
+numeros = [1, 2, 3, 4, 5]
 
-print(f"Equivale a {horas} horas.")
+for numero in numeros:
+    print(f"Número: {numero}")
+
+persona = {"nombre": "Ana", "edad": 22}
+
+for clave, valor in persona.items():
+    print(f"{clave}: {valor}")

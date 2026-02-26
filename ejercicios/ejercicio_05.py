@@ -1,13 +1,14 @@
 """
-Título: Área de un rectángulo
-
-Descripción:
-Calcula el área de un rectángulo usando base y altura.
+Ejercicio 05 - Bucles
+Usar for y while para conteo.
 """
 
-base = float(input("Ingrese la base del rectángulo: "))
-altura = float(input("Ingrese la altura del rectángulo: "))
+print("Conteo con for:")
+for i in range(1, 6):
+    print(i)
 
-area = base * altura
-
-print(f"El área del rectángulo es: {area}")
+print("Conteo con while:")
+contador = 1
+while contador <= 5:
+    print(contador)
+    contador += 1

@@ -1,11 +1,13 @@
 """
-Título: Edad el próximo año
-
-Descripción:
-Muestra la edad que tendrá el usuario el próximo año.
+Ejercicio 04 - Condicionales
+Determinar si un número es positivo, negativo o cero.
 """
 
-edad_actual = int(input("Ingrese su edad actual: "))
-edad_futura = edad_actual + 1
+numero = int(input("Ingrese un número: "))
 
-print(f"El próximo año tendrás {edad_futura} años.")
+if numero > 0:
+    print("El número es positivo")
+elif numero < 0:
+    print("El número es negativo")
+else:
+    print("El número es cero")

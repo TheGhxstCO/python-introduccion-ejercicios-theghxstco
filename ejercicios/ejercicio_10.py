@@ -1,12 +1,10 @@
 """
-Título: Datos del usuario
-
-Descripción:
-Solicita nombre, edad y estatura y muestra los datos ingresados.
+Ejercicio 10 - Funciones
+Crear una función que salude al usuario.
 """
 
-nombre = input("Ingrese su nombre: ")
-edad = int(input("Ingrese su edad: "))
-estatura = float(input("Ingrese su estatura en metros: "))
+def saludar(nombre):
+    print(f"Hola, {nombre}!")
 
-print(f"Nombre: {nombre}, Edad: {edad}, Estatura: {estatura} m")
+nombre_usuario = input("Ingrese su nombre: ")
+saludar(nombre_usuario)

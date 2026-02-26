@@ -1,14 +1,11 @@
 """
-Título: Doble y triple de un número
-
-Descripción:
-Muestra el doble y el triple de un número ingresado.
+Ejercicio 09 - Multiplicación de texto
+Solicitar una palabra y repetirla.
 """
 
-numero = int(input("Ingrese un número: "))
+palabra = input("Ingrese una palabra: ")
+veces = int(input("¿Cuántas veces desea repetirla? "))
 
-doble = numero * 2
-triple = numero * 3
+resultado = palabra * veces
 
-print(f"Doble: {doble}")
-print(f"Triple: {triple}")
+print(resultado)

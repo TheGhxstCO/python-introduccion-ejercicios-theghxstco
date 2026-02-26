@@ -1,16 +1,14 @@
 """
-Título: Saludo Personalizado
-
-Descripción:
-Solicita el nombre y la edad del usuario y muestra un saludo personalizado.
-
-Requisitos:
-1. Pedir el nombre.
-2. Pedir la edad.
-3. Mostrar un mensaje usando f-strings.
+Ejercicio 01 - Uso de print()
+Demostrar diferentes formas de usar la función print().
 """
 
-nombre = input("Ingrese su nombre: ")
-edad = int(input("Ingrese su edad: "))
+print("Hola mundo")
 
-print(f"Hola {nombre}, tienes {edad} años.")
+nombre = "Santiago"
+edad = 20
+
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Nombre: {} - Edad: {}".format(nombre, edad))
+print(f"Nombre: {nombre} - Edad: {edad}")
