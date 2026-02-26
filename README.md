@@ -3,18 +3,16 @@
 **Nombre:** Santiago Avendaño Upegui
 **Fecha:** 08/02/2026  
 
-## Descripción
-Este repositorio contiene 10 ejercicios diseñados para practicar los conceptos
-básicos de Python vistos en la Semana 2 del curso de Introducción a Python.
+Este repositorio contiene la solución de los 10 ejercicios solicitados en la rúbrica.
 
-## Índice de los Ejercicios
-1. Saludo Personalizado
-2. Suma de Dos Números
-3. Precio con IVA
-4. Edad el Próximo Año
-5. Área de un Rectángulo
-6. Conversión de Celsius a Fahrenheit
-7. Promedio de Tres Notas
-8. Conversión de Minutos a Horas
-9. Doble y Triple de un Número
-10. Datos del Usuario
+Cada archivo .py corresponde a un objetivo específico:
+- Uso de print
+- Variables
+- Operadores
+- Condicionales
+- Ciclos
+- Colecciones
+- Input y casting
+- Iteración
+- Formateo
+- Funciones
